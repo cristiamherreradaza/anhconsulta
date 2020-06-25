@@ -80,15 +80,44 @@
                             </div>
 
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="placa">Placa:</label>
+                                <label class="control-label col-sm-2" for="ci">Ci:</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="placa" placeholder="" name="placa">
+                                    <input type="text" class="form-control" id="ci" placeholder="" name="ci">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="nombres">Nombres:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="nombres" placeholder="" name="nombres">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-sm-4" for="primer_apellido">Primer apellido:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="primer_apellido" placeholder="" name="primer_apellido">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-sm-4" for="segundo_apellido">Segundo apellido:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="segundo_apellido" placeholder="" name="segundo_apellido">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="estado">Estado:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="estado" placeholder="" name="estado">
                                 </div>
                             </div>
                             
                             <div class="form-group">
                                 <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="submit" class="btn btn-default">Submit</button>
+                                    <button type="button" class="btn btn-success" onclick="enviaDatos()">Consultar</button>
+                                    <button type="button" class="btn btn-default" onclick="limpiarDatos()">LImpiar</button>
                                 </div>
                             </div>
                         </div>
